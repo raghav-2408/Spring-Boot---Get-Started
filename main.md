@@ -1,5 +1,5 @@
 # Dependencies for Connecting your Spring Boot Application to PostgreSQL 
-### (If dependency is not added in Spring Initializr
+### (If dependency is not added in Spring Initializr)
 
 ```xml
 <dependency>
