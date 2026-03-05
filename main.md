@@ -12,11 +12,11 @@
 # Confogure the application.properties
 
 ```java
-spring.datasource.url=jdbc:postgresql://localhost:5432/sqltest # db connection
+spring.datasource.url=jdbc:postgresql://localhost:5432/sqltest  -----> db connection
 spring.datasource.username=postgres 
 spring.datasource.password=your-pass
 
-spring.jpa.hibernate.ddl-auto=update # automatically create tables
-spring.jpa.show-sql=true # print SQL queries in console
+spring.jpa.hibernate.ddl-auto=update ----> automatically create tables
+spring.jpa.show-sql=true 		     ----> print SQL queries in console
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 ```
