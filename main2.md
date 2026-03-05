@@ -1,11 +1,12 @@
 # Create Entity Class
 
 ```java
-package com.example.demo.entity;
+package com.example.BootDemo;
 
 import jakarta.persistence.*;
 
 @Entity
+@Table (name = "users")
 public class User {
 
     @Id
@@ -42,25 +43,25 @@ public class User {
 # Create Repository
 
 ```java
-package com.example.demo.repository;
+package com.example.BootDemo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.example.demo.entity.User;
+import com.example.BootDemo.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
-
+    
 }
 ```
 
 # Create Controller
 
 ```java
-package com.example.demo.controller;
+package com.example.BootDemo;
 
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
-import com.example.demo.entity.User;
-import com.example.demo.repository.UserRepository;
+import com.example.BootDemo.User;
+import com.example.BootDemo.UserRepository;
 
 @RestController
 @RequestMapping("/users")
