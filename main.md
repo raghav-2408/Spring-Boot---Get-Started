@@ -11,7 +11,7 @@
 
 # Confogure the application.properties
 
-```xml
+```java
 spring.datasource.url=jdbc:postgresql://localhost:5432/sqltest # db connection
 spring.datasource.username=postgres 
 spring.datasource.password=your-pass
