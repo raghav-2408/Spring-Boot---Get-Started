@@ -9,7 +9,7 @@
 </dependency>
 ```
 
-# Confogure the application.properties
+# Configure the application.properties
 
 ```java
 spring.datasource.url=jdbc:postgresql://localhost:5432/sqltest  -----> db connection
