@@ -23,7 +23,7 @@ spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 
 # Swagger UI dependency
 
-```java
+```xml
  <dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
