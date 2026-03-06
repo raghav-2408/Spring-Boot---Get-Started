@@ -20,3 +20,13 @@ spring.jpa.hibernate.ddl-auto=update ----> automatically create tables
 spring.jpa.show-sql=true 		     ----> prints SQL queries in console
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 ```
+
+# Swagger UI dependency
+
+```java
+ <dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+    <version>2.6.0</version>
+</dependency
+```
