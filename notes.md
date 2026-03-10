@@ -59,3 +59,17 @@ GET /admin/users?role=ADMIN
 <img src = img1.png>
 
 
+
+{
+    "farmerId": 1,
+    "farmerName": "Ramesh",
+    "cropId": 100,
+    "cropName": "Tomato",
+    "category": "Vegetables",
+    "quantity": 1000,
+    "pricePerKg": 9.65,
+    "location": "Hyderabad"
+}
+
+
+http://localhost:8081/admin/users?role=ADMIN
