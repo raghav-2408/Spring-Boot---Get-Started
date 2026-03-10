@@ -37,3 +37,25 @@ Spring Data JPA reads the method name, understands what you want, and automatica
 and sort them by id in ascending order.”
 
 <hr>
+
+
+### URL (Uniform Resource Locator)
+
+?role=ADMIN → Query Parameter
+Everything after ? is a query string.
+
+
+## How to identify an endpoint
+A URL path becomes an endpoint only if you map it in your controller.
+
+Endpoint = HTTP Method + Path
+GET /users
+POST /users/register
+DELETE /users/{id}
+GET /admin/users?role=ADMIN
+
+##  So POST is correct for login because:
+
+<img src = img1.png>
+
+
